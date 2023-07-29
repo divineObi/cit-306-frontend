@@ -6,7 +6,7 @@ body {
 
 header {
     background: url(../img/header_background.png);
-    margin-bottom: 100vh;
+    /* margin-bottom: 100vh; */
 }
 
 header .navbar .container .nav-items {
@@ -97,6 +97,20 @@ header .hero-section .hero-image .button p {
     background: #FFF;
 }
 
+footer .sponsor-section .container .sponsor-text {
+    background-color: #D9D9D9;
+    color: #000;
+    font-size: 1.50738rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.18088rem;
+    width: 12.5625rem;
+    height: 2.5625rem;
+    text-align: center;
+    padding-top: 0.48rem;
+}
+
 footer .footer-text {
     color: #000;
     font-size: 1.25rem;
@@ -115,4 +129,8 @@ footer .footer-nav .navbar .container .nav-items a {
     text-decoration: none;
     color: #000;
     font-size: 1.25rem;
+}
+
+.unusual {
+    background: lightgray 50% / cover no-repeat;
 }
