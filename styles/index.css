@@ -5,8 +5,14 @@ body {
 }
 
 header {
-    background: url(../img/homePageBackgroundImage.png);
+    background: linear-gradient(to left, hsla(216, 88%, 38%, 0.65), hsla(184, 100%, 22%, 0.65)), url('../img/BACKGROUND.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 65vh;
+    width: 100%; */
 }
+
 
 
 .heading-images {
@@ -60,6 +66,53 @@ header .hero-section .hero-image .images img {
     Height: 403px;
     Top: 926px;
     Left: 101px;
+}
+
+.hero-btn button {
+    padding: 10px 30px;
+    border-radius: 3.29538rem;
+    cursor: pointer;
+    outline: none;
+    background: #fff;
+    border: 0;
+    font-weight: 600;
+    margin-top: 7rem;
+    width: 22rem;
+}
+
+.hero-btn button a {
+    color: #0c51b8;
+    font-size: 1.793rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero-btn button:hover {
+    background: transparent;
+    border: 1.5px solid #fff;
+    transition: all .5s;
+}
+
+.btn a {
+    width: 15.75rem;
+    height: 3.71344rem;
+    border: 1px #0C51B8 solid;
+    border-radius: 2.73169rem;
+    background: var(--gradients-gradient-2, linear-gradient(135deg, #00A9B4 19.60%, #0C51B8 100%));
+    color: var(--primary-colors-white, #FFF);
+    font-size: 1.48631rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    padding: 0.93rem 2.72rem;
+}
+
+.btn a:hover {
+    background: transparent;
+    border: 1.5px solid #0C51B8;
+    transition: all .5s;
+    color: #0C51B8;
 }
 
 .home-content {

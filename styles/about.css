@@ -61,6 +61,13 @@ footer .sponsor-section .container .sponsor-text {
     padding: 0.93rem 2.72rem;
 }
 
+.btn a:hover {
+    background: transparent;
+    border: 1.5px solid #0C51B8;
+    transition: all .5s;
+    color: #0C51B8;
+}
+
 .unusual {
     background: lightgray 50% / cover no-repeat;
 }
